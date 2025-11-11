@@ -1,0 +1,104 @@
+/* ===== ESTILO CANADÁ ===== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #fdfdfd;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* ===== CABEÇALHO ===== */
+  header {
+    background-color: #d50000; /* vermelho da bandeira do Canadá */
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(150, 0, 0, 0.4);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 0 0 10px #ff5555;
+  }
+  
+  header p {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    color: #f5f5f5;
+  }
+  
+  /* ===== CONTEÚDO PRINCIPAL ===== */
+  main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  /* ===== CARTÕES ===== */
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(213, 0, 0, 0.8);
+  }
+  
+  /* ===== IMAGENS ===== */
+  .card img {
+    width: 100%;
+    height: 220px; /* altura padronizada */
+    object-fit: cover; /* corta proporcionalmente sem distorcer */
+    display: block;
+    border-bottom: 4px solid #d50000; /* detalhe vermelho */
+  }
+  
+  /* ===== CONTEÚDO DOS CARTÕES ===== */
+  .card-content {
+    padding: 15px 20px;
+    flex-grow: 1;
+  }
+  
+  .card-content h3 {
+    color: #d50000;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .card-content p {
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  /* ===== RODAPÉ ===== */
+  footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 60px;
+    box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.2);
+  }
+  

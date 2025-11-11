@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Melhores lugares para viajar</h1>
+        <p>Saiba mais sobre Melhores lugares para viajar</p>
+    </header>
+    <section>
+        <h2>O que vamos aprender?</h2>
+    <ul>
+        <li>Uma cidade que mistura tradição e modernidade. Conhecida por seus templos milenares, jardins zen e a beleza das flores de cerejeira na primavera.</li>
+        <li>Ideal para quem ama arte, gastronomia e romance. A Torre Eiffel, o Louvre e os charmosos cafés fazem de Paris um destino inesquecível.</li>
+        <li>Um paraíso natural com praias deslumbrantes, águas cristalinas e rica vida marinha. Perfeito para mergulho e ecoturismo.</li>
+    </ul>
+    <button onclick="mostrarDetalhes()">Ver detalhes do curso</button>
+    <div class="detalhes" id="detalhes">
+        <p>curso 100% gratuito</p>
+    </div>
+</section>
+,<script>
+    function mostrarDetalhes(){
+        const detalhes = document.getElementById("detalhes");
+        if(detalhes.style.display ==="block"){
+            detalhes.style.display ="none";
+        }else{
+            detalhes.style.display ="block";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/* ======== Estilos Gerais ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: #e6f7ff; /* Azul clarinho */
+    color: #2a2a2a;
+    line-height: 1.6;
+  }
+  
+  /* ======== Cabeçalho ======== */
+  header {
+    background: linear-gradient(135deg, #00c2cb, #0096c7); /* Azul-menta */
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #e6ffff;
+  }
+  
+  /* ======== Seção de Dicas ======== */
+  .tips {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+  }
+  
+  /* ======== Cartões ======== */
+  .tip {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 4px solid #caf0f8;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    padding-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .tip:hover {
+    transform: scale(1.05);
+    border-color: #00b4d8;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tip img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .tip h3 {
+    color: #0077b6;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 1rem 0 0.5rem 0;
+  }
+  
+  .tip p {
+    color: #555;
+    font-size: 0.95rem;
+    padding: 0 1rem;
+  }
+  
+  /* ======== Rodapé ======== */
+  footer {
+    background: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* ======== Responsividade ======== */
+  @media (max-width: 900px) {
+    .tip {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .tip {
+      width: 100%;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  }
+  

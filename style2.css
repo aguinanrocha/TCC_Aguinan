@@ -1,0 +1,53 @@
+body{
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    background-color: white;
+    color: brown;
+}
+header{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p{
+    font-size: 1.2rem;
+}
+section{
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+h2{
+    color: blueviolet;
+}
+ul{
+    list-style: square;
+    margin-left: 20px;
+}
+button{
+    background-color:yellow;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.detalhes{
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    border-left: 5px solid blue;
+    border-radius: 5px;
+}

@@ -1,0 +1,104 @@
+/* ===== ESTILO PARIS ===== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #faf7f5;
+    color: #2b2b2b;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+  }
+  
+  /* ===== CABEÇALHO ===== */
+  header {
+    background-color: #0033A0; /* Azul francês */
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 50, 0.4);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 0 0 8px #ED2939;
+  }
+  
+  header p {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    color: #f5f5f5;
+  }
+  
+  /* ===== CONTEÚDO PRINCIPAL ===== */
+  main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  /* ===== CARTÕES ===== */
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #ED2939cc;
+  }
+  
+  /* ===== IMAGENS ===== */
+  .card img {
+    width: 100%;
+    height: 220px; /* define a altura padrão */
+    object-fit: cover; /* corta e ajusta proporcionalmente */
+    display: block;
+    border-bottom: 3px solid #ED2939;
+  }
+  
+  /* ===== CONTEÚDO DOS CARTÕES ===== */
+  .card-content {
+    padding: 15px 20px;
+    flex-grow: 1;
+  }
+  
+  .card-content h3 {
+    color: #0033A0;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  .card-content p {
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  /* ===== RODAPÉ ===== */
+  footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #ED2939;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 60px;
+    box-shadow: 0 -3px 8px rgba(200, 0, 0, 0.3);
+  }
+  
